@@ -34,6 +34,7 @@ div {
     justify-content: center;
     font-size: 8rem;
     text-shadow: rgb(0, 30, 255) 1px 0 10px;
+    transform: rotate(720deg);
 }
 
 #cat {
@@ -61,7 +62,7 @@ button:hover {
     display: flex;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
-    transition: all 1s ease;
+    transition: all .5s ease;
     justify-content: center;
     align-items: center;
     font-size: 1em;
