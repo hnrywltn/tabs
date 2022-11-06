@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import TicTacToe from './components/TicTacToe/TicTacToe';
 import Splash from './components/Splash/Splash';
+import BorderRadius from './components/BorderRadius/BorderRadius';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path='/tictactoe' element={<TicTacToe/>}/>
+      </Routes>
+      <Routes>
+        <Route exact path='/borderradius' element={<BorderRadius/>}/>
       </Routes>
 
     </BrowserRouter>
