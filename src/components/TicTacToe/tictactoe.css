@@ -1,4 +1,11 @@
 
+body {
+    background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/bokeh-abstract_SGQ0OLCS3H.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(3, 33.33%);
@@ -10,22 +17,31 @@
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.409);
 }
 
+div {
+    font-size: 1em;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all 1s ease;
+}
+
 #win {
     height: 45vw;
     width: 45vw;
     border-radius: 15px;
-    background-color: rgba(241, 205, 0, 0.749);
+    background-color: rgba(241, 205, 0, 0.661);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 8rem;
+    text-shadow: rgb(0, 30, 255) 1px 0 10px;
 }
 
 #cat {
+    text-shadow: rgb(0, 30, 255) 1px 0 10px;
     height: 45vw;
     width: 45vw;
     border-radius: 15px;
-    background-color: rgba(230, 0, 255, 0.782);
+    background-color: rgba(230, 0, 255, 0.383);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,28 +53,29 @@ button {
     background-color: transparent;
 }
 
-.space {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4em;
-    border-radius: 15px;
-    /* border: 1px solid black; */
-}
-
-.space:hover {
+button:hover {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.409);
 }
 
+.space {
+    display: flex;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all 1s ease;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+
 .x {
     color: rgba(173, 0, 0, 0.718);
+    font-size: 4.5em;
 }
 
 .o {
     color: rgba(0, 128, 0, 0.718);
+    font-size: 4.5em;
 
 }
-
-/* .Fill {
-
-} */
