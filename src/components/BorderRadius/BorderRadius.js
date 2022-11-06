@@ -74,8 +74,10 @@ function BorderRadius() {
         alt='puffin'
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atlantic_puffins_Gull_Island.jpg/1024px-Atlantic_puffins_Gull_Island.jpg'/>
 
-
         <p>{`border-radius: ${tl}% ${tr}% ${br}% ${bl}%;`}</p>
+        <button onClick={() => {navigator.clipboard.writeText(`border-radius: ${tl}% ${tr}% ${br}% ${bl}%;`)}}>
+          Copy to Clipboard
+        </button>
 
 
     </div>
