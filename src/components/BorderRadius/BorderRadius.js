@@ -18,7 +18,11 @@ function BorderRadius() {
         <div
           style={{
             display:'flex',
-            flexDirection:'column'
+            flexDirection:'column',
+            backgroundColor:'rgba(255, 250, 250, 0.397)',
+            padding:'2vh',
+            margin:'2vh',
+            borderRadius: '5px'
             }}>
 
 
@@ -75,7 +79,7 @@ function BorderRadius() {
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Atlantic_puffins_Gull_Island.jpg/1024px-Atlantic_puffins_Gull_Island.jpg'/>
 
         <p>{`border-radius: ${tl}% ${tr}% ${br}% ${bl}%;`}</p>
-        <button onClick={() => {navigator.clipboard.writeText(`border-radius: ${tl}% ${tr}% ${br}% ${bl}%;`)}}>
+        <button style={{color:'white',borderRadius: '5px', fontWeight:'bold', backgroundColor:'black', padding:'5px'}} onClick={() => {navigator.clipboard.writeText(`border-radius: ${tl}% ${tr}% ${br}% ${bl}%;`)}}>
           Copy to Clipboard
         </button>
 
